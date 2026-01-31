@@ -1,0 +1,2338 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 0 1em;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-explore {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 14px;
+    padding: 0 5px;
+    height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight: 300;
+    background: rgba(255, 153, 0, 1);
+    transition: .5s all;
+}
+
+
+.btn-text {
+    background: #ffffff;
+    color: #000;
+    padding: 5px 20px;
+    font-size: 16px;
+    border-right: none;
+    border-radius: 13px;
+}
+
+.btn-icon {
+    color: #fff;
+    padding: 14px 5px;
+    font-size: 20px;
+    border-radius: 0 14px 14px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-explore:hover {
+    box-shadow: 0 12px 30px rgba(255,165,0,0.4);
+    transform: translateY(-2px);
+}
+
+.btn-explore:hover .text {
+    background: transparent;
+    color: #fff;
+}
+
+.btn-explore:hover .icon {
+    transform: rotate(45deg) translateX(3px);
+}
+
+header{
+    background: url(image/Image.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.header-top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: solid 1px #ffffff5d;
+    padding: 1em 0;
+}
+
+.header-top .logo{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 27.2px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.header-top .logo img{
+    width: 30px;
+    height: auto;
+    position: relative;
+    top: 7px;
+}
+
+.header-top .logo a{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5.6px;
+}
+
+.navigation a{
+    display: inline-block;
+    transition: .5s all;
+}
+
+.navigation a:hover,
+.active{
+    color: rgba(255, 153, 0, 1);
+}
+
+.contact{
+    display: block;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+.navigation .contact a{
+    color: #fff;
+    display: flex;
+    gap: 5px;
+}
+
+.contact img{
+    position: relative;
+    width: 20px;
+    height: auto;
+}
+
+.hero .container .title{
+    color: #fff;
+    padding: 3em 0;
+}
+
+.hero .container .title h1{
+    font-size: 1.8em;
+    font-weight: 200;
+    padding-bottom: .5em;
+}
+
+.hero .container .title h1 span{
+    font-weight: bolder;
+    font-size: 2.2rem;
+}
+
+.hero .container .title p{
+    font-size: 10px;
+    padding-bottom: 2em;
+}
+
+.hero-bottom{
+    display: flex;
+    color: #fff;
+    font-weight: lighter;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-top: solid 1px #ffffff64;
+}
+
+.hero-bottom .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.hero-bottom .item img{
+    width: 10px;
+    height: 10px;
+}
+
+.hero-bottom .item p{
+    font-size: 5.5px;
+}
+
+.about{
+    height: 320vw;
+    width: 100%;
+    position: relative;
+}
+
+.about .bg{
+    width: 200px;
+    position: absolute;
+    top: 60em;
+}
+
+.about .container{
+    padding: 3em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.about .container .title-un{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.about .container .title-un h4 img{
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+}
+
+.about .container .title-item-deux{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.about .container .title-item-deux .item-sus{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+.about .container .title-item-deux .item-sus p{
+    display: flex;
+    font-size: 16px;
+    gap: 11px;
+    font-weight: 400;
+}
+
+.about .container .title-item-deux .contain-un{
+    width: 292px;
+    height: auto;
+    background: rgba(245, 245, 245, 1);
+    text-align: bottom;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.about .container .title-item-deux .contain-un .star{
+    padding-bottom: 1em;
+}
+
+.title-item-deux .item-us p img{
+    width: 5px;
+    margin-right: 10px;
+}
+
+.about .container .title-un h4{
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.about .container .title-un h2{
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.about .container .title-un h2 span{
+    font-weight: bold;
+}
+
+.about .container .title-un p{
+    color: rgba(129, 132, 138, 1);
+    font-size: 10px;
+
+}
+
+
+.about .un{
+    width: 150px;
+    height: auto;
+}
+
+.about .deux{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 50em;
+    left: 6em;
+}
+
+.about .title{
+    position: absolute;
+    left: 11em;
+    display: flex;
+    top: 47em;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.about .title h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 153, 0, 1);
+}
+
+.about .title p{
+    font-size: 10px;
+    padding: 3px 10px;
+}
+
+.service {
+    height: auto;
+    background-image: url("image/service.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 2.4em;
+}
+
+.service::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;      /* 0 et non O */
+    right: 0;
+    bottom: 0;    /* indispensable */
+    background: rgba(34, 34, 34, 0.7);
+    z-index: 1;
+}
+
+.service .container{
+    padding-top: 3em;
+    padding-bottom: 5em;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.service .container .title h4{
+    font-weight: 500;
+    display: flex;
+    gap: 5px;
+}
+
+.service .container .title h4 img{
+    position: relative;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.service .container .title h2{
+    font-weight: 300;
+    font-size: 22px;
+    padding: 1em 0;
+}
+
+.service .container .title h2 span{
+    font-weight: bold;
+}
+
+.service .container .title .para p{
+    font-size: 16px;
+    font-weight: 280;
+}
+
+.service .container .service-item{
+    background-color: #fff;
+    position: absolute;
+    margin: 2em auto;   
+    border-radius: 20px;
+    width: 90%;
+    max-width: 425px;
+    color: #000;
+    display: block;
+    align-items: center; 
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(34, 34, 34, 0.1);
+    padding: 2em 3em;
+}
+
+.service .container .service-item .item{
+    border-bottom: solid 1px rgba(0, 0, 0, 0.137);
+    padding: 2em 0;
+}
+
+.service .container .service-item .item p{
+    padding: 2em 0;
+}
+
+.service .container .service-item .item:last-child{
+    border-bottom: none;
+}
+
+.service .container .service-item .item a{
+    background: rgba(245, 245, 245, 1);
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    color: #000;
+    transition: 0.5s all;
+}
+
+.service .container .service-item .item a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.story{
+    margin-top: 75em;
+}
+
+.story .container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2em;
+}
+
+
+.story .container .title h4{
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    padding: 1em 0;
+}
+
+.story .container .title h4 img{
+    height: 20px;
+    width: 20px;
+    margin-right: 1em;
+
+}
+
+.story .container .title h2{
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: -.5px;
+}
+
+.story .container .title h2 span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2em;
+}
+
+.story .container .title .image{
+    width: 100%;
+    overflow: hidden;
+}
+
+.story .container .title .image img{
+    width: 283px;
+}
+
+.story .container .contain .image{
+    display: flex;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+.story .container .contain img{
+    width: 136px;
+}
+
+.story .contain .para p{
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 4em;
+    color: rgba(129, 132, 138, 1);
+}
+
+.story .contain .compte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2em;
+    margin-bottom: 4em;
+}
+
+.story .contain .compte span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.story .contain .compte h4{
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: -0.5px;
+    color: rgba(255, 153, 0, 1);
+}
+
+.story .contain .face{
+    display: flex;
+    align-items: center;
+}
+
+
+.story .contain .face img:nth-child(3){
+    margin-right: 2em;
+    transform: translateX(-2em);
+}
+
+.story .contain .face img:nth-child(2){
+    transform: translateX(-1em);
+}
+
+.story .contain .face .button a{
+    color: #000;
+    display: flex;
+    text-align: center;
+    font-weight: 700;
+    justify-items: center;
+}
+
+.story .contain .face img{
+    width:50px;
+}
+
+.story .contain .face a img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+}
+
+.inovation{
+    background: rgba(34, 34, 34, 1);
+    color: #fff;
+}
+
+.inovation .ill{
+    position: relative;
+    display: none;   
+}
+
+.inovation .illust{
+    width: 60px;
+    position: relative;
+    left: 8em;
+    top: 4em;
+}
+
+.inovation .illus{
+    width: 100%;
+    margin-top: 3em;
+}
+
+.inovation .container{
+    padding-top: 3em;
+}
+
+.inovation .container .titre h4{
+    display: flex;
+    gap: .5em;
+    letter-spacing: 2.8px;
+    font-size: 14px;
+    margin-bottom: 2em;
+}
+
+.inovation .container .titre h4 img{
+    width: 20px;
+    height: 20px;
+}
+
+.inovation .container .titre h2{
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -.5px;
+    margin-bottom: 2em;
+}
+
+.inovation .container .titre h2 span{
+    font-weight: 700;
+}
+
+.inovation .container .item-element{
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.inovation .container .item{
+    border: solid .5px black;
+    padding: 1em 1em ;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+.inovation .container .item p{
+    font-weight: 200;
+}
+
+.inovation .container .item.active{
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.inovation .container .ima{
+    width: 100%;
+}
+
+.inovation .container .ima img{
+    width: 200px;
+}
+
+.our .container{
+    padding-top: 3em;
+}
+
+.our .container .title{
+    display: block;
+}
+
+.our .container .title h4{
+    display: flex;
+    gap: .5em;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    margin-bottom: 2em;
+}
+
+.our .container .title h2{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.our .container .title h2 span{
+    font-weight: 700;
+}
+
+.our .container .title h4 img{
+    width: 20px;
+    height: 20px;
+}
+
+.our .container .title p{
+    font-weight: 290;
+    margin-bottom: 3em;
+}
+
+.our .container .lien{
+    text-align: center;
+}
+
+.our .container .lien a{
+    display: inline-block;
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 1rem;
+    transition: .5s all;
+}
+
+.our .container .lien a:hover,
+.our .container .lien a.active {
+    color: rgba(255, 153, 0, 1);
+}
+
+.our .container .lien a::after{
+    content: '/';
+    margin-left: 1rem;
+}
+
+.our .container .lien a:nth-child(6)::after {
+    content: '';
+}
+
+.our .container .image article{
+    display: block;
+    width: 100%;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.our .container .image article p{
+    display: block;
+    font-size: 10px;
+}
+
+.our .container .image article img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.our .container .image article span{
+    display: block;
+    background: rgba(34, 34, 34, 0.2);
+    color: #ffffff;
+    font-size: 10px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px); /* Safari */
+    position: absolute;
+    transform: translate(3em, 2em);
+}
+
+.optimal{
+    background: rgba(245, 245, 245, 1);
+}
+
+.optimal .container{
+    padding-top: 2em;
+}
+
+.optimal .container .title{
+    display: block;
+}
+
+.optimal  .container .title h4{
+    display: flex;
+    gap: .5em;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    margin-bottom: 2em;
+}
+
+.optimal .container .title h2{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.optimal .container .title h4 img{
+    width: 20px;
+    height: 20px;
+}
+
+.optimal .container .title h2{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.optimal .container .title h2 span{
+    font-weight: 700;
+}
+
+.optimal .container .title p{
+    font-weight: 290;
+    margin-bottom: 3em;
+}
+
+.optimal .container .contain .image{
+    width: 100%;
+    height: 100%;
+}
+
+.optimal .container .contain .image img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.optimal .container .contain .item-element{
+    display: block;
+    padding-top: 2em;
+}
+
+.optimal .container .contain .item-element .item{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 1em;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+.optimal .container .contain .item-element h4{
+    font-size: 10px;
+    font-weight: 600;
+    padding-bottom: .5em;
+}
+
+.optimal .container .contain .item p{
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.optimal .container .contain .item h2{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.optimal .container .contain .item.active{
+    color: #fff;
+    background: rgba(255, 153, 0, 1);
+    border-radius: 40px;
+}
+
+.optimal .container .contain .item.active h2{
+    color: #fff;
+}
+
+.pricing .container{
+    padding-top: 2em;
+}
+
+.pricing .container .title{
+    display: block;
+}
+
+.pricing  .container .title h4{
+    display: flex;
+    gap: .5em;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    margin-bottom: 2em;
+}
+
+.pricing .container .title h2{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.pricing .container .title h2 span{
+    font-weight: 700;
+}
+
+.pricing .container .contain .item-element{
+    align-items: center;
+    margin-top: 5em;
+}
+
+.pricing .container .contain .item-element{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.pricing .container .contain .item{
+    max-width: 290px;
+    position: relative  ;
+    background: rgba(245, 245, 245, 1);
+    margin-bottom: 1em;
+    padding: 2em;
+    border-radius: 20px;
+}
+
+.pricing .container .contain .item .title p{
+    position: relative;
+    top: -2em;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.pricing .container .contain .item .bouton {
+    color: rgba(255, 153, 0, 1);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.pricing .container .contain .item .bouton a{
+    color: rgba(255, 153, 0, 1);
+    padding: 1em 2em;
+    border: solid 1px ;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: .5s all;
+}
+
+.pricing .container .contain .item .bouton a:hover{
+    color: black;
+    background-color:  rgba(255, 153, 0, 1);
+    border: #fff solid 1px;
+}
+
+.pricing .container .contain .item.active .bouton a{
+    color: rgb(255, 255, 255);
+    padding: 1em 2em;
+    border: solid 1px ;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: .5s all;
+}
+
+.pricing .container .contain .item.active .bouton a:hover{
+    color: #000;
+    background-color: #fff;
+    border: rgba(255, 153, 0, 1) solid 1px ;
+}
+
+.pricing .container .contain .item.active{
+    background: rgba(255, 153, 0, 1);
+    color: #fff;
+}
+
+.pricing .container .contain .item.active .title h2 {
+    color: white;
+}
+
+.pricing .container .contain .item .svg-1{
+    position: absolute;
+    translate: 8em -2em;
+}
+
+.pricing .container .contain .item .svg-2{
+    position: absolute;
+    translate: 10em -2em;
+}
+
+.pricing .container .contain .item .svg-3{
+    position: absolute;
+    translate: 8.1em -2em;
+}
+
+.pricing .container .contain .item div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 1em 0;
+}
+
+.pricing .container .contain .item p{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    font-size: 12px;
+}
+
+.pricing .container .contain .item p img{
+    width: 15px;
+    height: 15px;
+}
+
+.pricing .container .contain .item .title h2{
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color:  rgba(255, 153, 0, 1);
+    margin-bottom: 0;  
+    margin-left: .2em;  
+}
+
+.pricing .container .contain .item .title h2::after {
+    content: '/month';
+    font-size: 12px;
+    right: -35px;
+    font-weight: 500;
+    color: #000;
+    opacity: 50%;
+    bottom: 0;
+}
+
+.pricing .container .contain .item .title h2 span{
+    font-size: 30px;
+    position: absolute;
+    display: inline-block;
+    translate: -.6em .5em;
+    margin-right: 10px;
+}
+
+.pricing-botton {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.pricing-botton .items{
+    display: flex;
+    gap: 1em;
+}
+
+.clients{
+    margin-top: 5em;
+    background: url(image/client-2.png);
+    background-size: cover;
+    background-position: center;
+    background: rgba(245, 245, 245, 1);
+    padding-bottom: 3em;
+}
+
+.clients .container{
+    padding-top: 3em;
+    display: grid;
+    gap: 1em;
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 2em;
+}
+
+.clients .container .title h4{
+    display: flex;
+    gap: .5em;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    margin-bottom: 2em;
+}
+
+.clients .container .title h4 img{
+    width: 20px;
+    height: 20px;
+}
+
+.clients .container .title h2{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 3em;
+}
+
+.clients .container .title p{
+    color: rgba(129, 132, 138, 1);
+    padding-bottom: 4em;
+}
+
+.clients .container .item-deux{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients .container .item-deux .im{
+    display: flex;
+}
+
+.clients .container .item-deux .im span{
+    margin-top: 1em;
+    margin-left: .5em;
+}
+
+.clients .container .item-deux .im h5{
+    font-size: 8px;
+}
+
+.clients .container .item-deux .im p{
+    font-size: 9px;
+}
+
+.clients .container .item-deux .flec{
+    background-color: rgba(255, 153, 0, 1);
+    padding: 5px 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.clients .container .item-deux .flec:hover{
+    color: rgba(255, 153, 0, 1);
+    background-color: #fff;
+}
+
+.clients .container .item-deux p{
+    padding-bottom: 0;
+}
+
+.clients .container .item-deux img{
+    border-radius: 8px;
+}
+
+.clients .container .title h2 span{
+    font-weight: 700;
+    display: block;
+}
+
+.clients .container .image{
+    width: 100%;
+}
+
+.clients .container .image img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.blogs .container{
+    padding-top: 2em;
+    display: grid;
+    gap: 3em;
+    grid-template-rows: 1fr;
+}
+
+.blogs .container .title{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.blogs .container .title h4{
+    display: flex;
+    gap: .5em;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    margin-bottom: 2em;
+}
+
+.blogs .container .title h2{
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 2em;
+}
+
+.blogs .container .title h2 span{
+    font-weight: 600;
+    display: block;
+}
+
+.blogs .container .item-bloc{
+    width: 100%;
+}
+
+.blogs .container .item-bloc img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.blogs .container .item-bloc .item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    margin-top: .5em;
+}
+
+.blogs .container .item-bloc .item p{
+    font-size: 10px;
+}
+
+.blogs .container .item-bloc .item a{
+    background: rgba(255, 153, 0, 1);
+    padding: .3em 1em ;
+    border-radius: 6px;
+    transition: .5s all;
+}
+
+.blogs .container .item-bloc .item a:hover{
+    background-color: #fff;
+    color: rgba(255, 153, 0, 1);
+    border: solid  1px  rgba(255, 153, 0, 1) ;
+}
+
+footer{
+    background-color: rgba(34, 34, 34, 1);
+    color: #fff;
+}
+
+footer .container{
+    padding-top: 2em;
+}
+
+footer .container .titre{
+    display: grid;
+    gap: 2em;
+    border-bottom: Solid 1px rgba(255, 255, 255, 0.148);
+    padding-bottom: 3em;
+}
+
+footer .container .titre .bloc h2{
+    font-weight: 400;
+    padding-bottom: 1em;
+}
+
+footer .container .titre .bloc img{
+    width: 100px;
+}
+
+footer .item-footer-bottom {
+    padding-top: 3em;
+}
+
+footer .item-footer-bottom .logo{
+    display: inline-block;
+    justify-items: center;
+    padding-bottom: 1em;
+}
+
+footer .item-footer-bottom .logo a{
+    display: flex;
+    justify-items: center;
+    font-size: 20px;
+}
+
+footer .item-footer-bottom .logo a span{
+    margin-top: .5em;
+    margin-left: .2em;
+}
+
+footer .item-footer-bottom .logo img{
+    width: 50px;
+}
+
+footer .item-footer-bottom .para{
+    font-size: 15px;
+    font-weight: 280;
+    padding-bottom: 3em;
+}
+
+footer .item-footer-bottom .item-logo{
+    display: flex;
+    gap: 2em;
+}
+
+footer .item-logo-bloc{
+    margin-bottom: 2em;
+}
+
+footer .item-lien-bloc .lien{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 3em;
+}
+
+footer .item-lien-bloc h3{
+    font-weight: 400;
+    padding-bottom: 2em;
+}
+
+footer .item-footer-bottom{
+    border-bottom: Solid 1px rgba(255, 255, 255, 0.071);
+}
+
+footer .tag{
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+footer{
+    position: relative;
+}
+
+footer .foot{
+    position: absolute;
+    width: 300px;
+    top: 80em;
+}
+
+footer a{
+    transition: .5s all;
+}
+
+footer a:hover{
+    color: rgba(255, 153, 0, 1);
+}
+
+@media only screen and (min-width: 375px) {
+    .about{
+        height: 273vw;
+        width: 100%;
+        position: relative;
+    }
+
+    .inovation .illust{
+        width: 60px;
+        position: relative;
+        left: 9em;
+        top: 4em;
+    }
+
+    .pricing-botton {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1em;
+        margin-top: 1em;
+    }
+
+}
+
+@media only screen and (min-width: 425px) {
+    .about{
+        height: 241vw;
+        width: 100%;
+        position: relative;
+    }
+
+    .inovation .illust{
+        width: 60px;
+        position: relative;
+        left: 12em;
+        top: 4em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .container{
+        padding: 1em 2em;
+    }
+
+    .header-top{
+        display: flex;
+        flex-direction: c;
+        justify-content: center;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        vertical-align: center;
+        gap: 5.6px;
+    }
+
+    .navigation .contact a{
+        color: #fff;
+        display: flex;
+        gap: 2px;
+    }
+
+    .hero .container .title{
+        padding: 0 10em;
+    }
+
+    .hero .container .title P{
+        padding-bottom: 3em 0;
+    }
+
+    .hero-bottom{
+        display: flex;
+        color: #fff;
+        font-weight: lighter;
+        justify-content: space-evenly;
+        margin-top: 100px;
+        padding-top: 20px;
+        border-top: solid 1px #ffffff64;
+    }
+
+    .hero-bottom .item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hero-bottom .item img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero-bottom .item p{
+        font-size: 10px;
+    }
+
+    .about{
+        height: 59vw;
+        width: 100%;
+    }
+
+    .about .bg{
+        width: 400px;
+        position: absolute;
+        top: 18em;
+    }
+
+
+    .about .container{
+        padding: 3em 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2em;
+    }
+
+    .about .container .title-un{
+        max-width: 50%;
+        order: 2;
+    }
+
+    .about .container .illustration{
+        max-width: 50%;
+        order: 1;
+    }
+
+    .about .container .title-item-deux{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about .un{
+        width: 200px;
+        height: auto;
+    }
+
+    .about .deux{
+        width: 250px;
+        height: auto;
+        position: absolute;
+        top: 7em;
+        left: 6em;
+    }
+
+    .about .illustration .title{
+        position: absolute;
+        left: 14em;
+        display: flex;
+        top: 5em;
+        text-align: center;
+    }
+
+    .item-sus p img{
+        width: 16px;
+        height: 16px;
+    }
+
+    .about .container .title-item-deux{
+        gap: 1em;
+    }
+
+    .about .container .title-item-deux .contain{
+        width: 80%;
+    }
+
+    .about .container .title-item-deux .item-sus p{
+        font-size: 10px;
+    }
+
+    .about .container .title-item-deux .contain .btn-text{
+        font-size: 15px;
+    }
+
+    .service .container .title{
+        display: flex;
+        padding-top: 3em;
+        color: #fff;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .service .container .title .contain{
+        width: 50%;
+    }
+
+    .service .container .title .contain h2{
+        font-size: 25px;
+    }
+
+    .service .container .title .para{
+        width: 50%;
+    }
+
+    
+    .service .container .title .para p{
+        font-size: 13px;
+        padding-top: 2em;
+    }
+
+    .service .container .service-item{
+        background-color: #fff;
+        max-width: 700px;
+        margin: 2em auto;
+        border-radius: 20px;
+        color: #000;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* ✅ */
+        gap: 24px; /* espace entre les items */
+        text-align: center;
+        align-items: center;
+        box-shadow: 0 4px 10px rgba(34, 34, 34, 0.1);
+        padding: 2em;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .service .container .service-item .item{
+        border-left: solid 1px rgba(0, 0, 0, 0.137);
+        padding: 2em 2em;
+        border-bottom: none;
+    }
+
+    .service .container .service-item .item:nth-child(3) {
+        border-left: none;
+
+    }
+
+    .service .container .service-item .item:first-child{
+        border-bottom: none;
+        border-left: none;
+    }
+
+    .service .container .service-item .item p{
+        font-size: 1em;
+    }
+
+    .story{
+        margin-top: 40em;
+    }
+
+    .story .container .title h2{
+        padding-left: 0 4em;
+    }
+
+    .story .container .title img{
+        width: 300px;
+    }
+
+    .story .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0;
+        gap: 2em;
+    }
+
+    .story .container .contain img{
+        width: 185px;
+    }
+
+    .story .contain .face img{
+        width: 50px;
+    }
+
+    .inovation{
+        background: rgba(34, 34, 34, 1);
+        color: #fff;
+        margin-top: 45em;
+    }
+
+    .inovation .container .titre h4{
+        display: flex;
+        gap: .5em;
+        letter-spacing: 2.8px;
+        font-size: 14px;
+        margin-bottom: 2em;
+    }
+
+    .inovation .container .titre h4 img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .inovation .container .titre h2{
+        font-size: 50px;
+        font-weight: 300;
+        letter-spacing: -.5px;
+        margin-bottom: 2em;
+    }
+
+    .inovation .container .titre h2 span{
+        font-weight: 700;
+    }
+
+    .inovation .illust{
+        width: 100px;
+        position: relative;
+        left: 20em;
+        top: 7em;
+    }
+
+    .our .container .image{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2em;
+    }
+
+    .our .container .lien{
+        margin-bottom: 4em;
+    }
+
+    .our .container .image article{
+        margin-bottom: 0;
+    }
+
+    .pricing .container .contain .item{
+        max-width: 100%;
+        position: relative  ;
+        background: rgba(245, 245, 245, 1);
+        margin-bottom: 1em;
+        padding: 2em;
+        border-radius: 20px;
+    }
+
+    .optimal .container .contain .item-element h4{
+        font-size: 10px;
+        font-weight: 600;
+        padding-bottom: .5em;
+    }
+
+    .optimal .container .contain .item p{
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .optimal .container .contain .item h2{
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    .pricing .container .contain .item-element{
+        align-items: center;
+        margin-top: 5em;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pricing .container .contain .item .svg-1{
+        position: absolute;
+        translate: 11.1em -2em;
+    }
+
+    .pricing .container .contain .item .svg-2{
+        position: absolute;
+        translate: 13em -2em;
+    }
+
+    .pricing .container .contain .item .svg-3{
+        position: absolute;
+        translate: 11.1em -2em;
+    }
+
+    .pricing .container .contain .item div p {
+        font-size: 13px;
+    }
+
+    .pricing .container .contain .item div p img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .clients .container{
+        padding-top: 3em;
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        margin-bottom: 2em;
+        justify-items: center;
+        gap: 4em;
+    }
+
+    .clients .logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    .blogs .container .title{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 3em;
+    }
+
+    .blogs .container .title p{
+        margin-top: 2.5em;
+    }
+    
+    .blogs .container .item-bloc{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3em;
+    }
+
+    .blogs .container .item-bloc .item p{
+        font-size: 10px;
+        padding-right: 1em;
+    }
+
+    .blogs .container .item-bloc .item a{
+        padding: .4em 1em;
+    }
+
+    footer .container .titre{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+    }
+
+    footer .container .titre .bloc img{
+        margin-left: 10em;
+    }
+
+    footer .container .titre .bloc p{
+        font-size: 9px;
+    }
+
+    .item-footer-bottom{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        gap: 3em;
+    }
+
+    .item-lien-bloc{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    footer .tag{
+        font-size: 10px;
+        text-align: center;
+        padding-bottom: 5em;
+        padding-top: 2em;
+    }
+
+    footer{
+        position: relative;
+    }
+
+    footer .foot{
+        position: absolute;
+        width: 300px;
+        top: 43.4em;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px){
+    
+
+    .container{
+        padding: 2em 4em;
+    }
+
+    .header-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .header-top .navigation{
+        justify-content: space-between;
+        gap: 30px;
+        margin-top: 10px;
+    }
+
+    
+    .header-top .logo {
+        margin-bottom: 0;
+    }
+
+    .header-top .logo a{
+        margin-bottom: 5px;
+    }
+
+    .contact a{
+        display: flex;
+    }
+    
+    .contact img{
+        position: relative;
+        top: -2px;
+        left: 3px;
+        margin-right: 6px;
+        width: 25px;
+    }
+
+    .logo a{
+        margin-bottom: 0;
+    }
+
+    .hero{
+        height: 100vh;
+    }
+
+    .hero .container{
+        text-align: start;
+    }
+
+
+    .hero .container .title{
+        padding: 0;
+        padding-right: 25em;
+    }
+    
+    .hero .container .title h1{
+        font-size: 50px;
+    }
+
+    .hero .container .title h1 span{
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .hero .container .title p{
+        font-weight: 400;
+        font-size: 16px;
+        padding-right: 5em;
+        padding-bottom: 5em;
+    }
+
+    .hero-bottom{
+        display: flex;
+        color: #fff;
+        font-weight: lighter;
+        justify-content: space-evenly;
+        margin-top: 140px;
+        padding-top: 30px;
+        border-top: solid 1px #ffffff64;
+    }
+
+    .hero-bottom .item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hero-bottom .item img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero-bottom .item p{
+        font-size: 16px;
+    }
+
+    .about{
+        height: 54vw;
+        width: 100%;
+    }
+
+    .about .bg{
+        width: 400px;
+        position: absolute;
+        top: 33em;
+    }
+
+
+    .about .container{
+        padding-top: 7em;
+        padding-left: 4em;
+        padding-right: 4em;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2em;
+    }
+
+    .about .container .title-un{
+        max-width: 50%;
+        order: 2;
+        padding-top: 3em ;
+    }
+
+    .about .container .title-un h4{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .about .container .title-un h2{
+        font-size: 45px;
+        font-weight: 300;
+    }
+
+    .about .container .title-un p{
+        font-size: 13px;
+    }
+
+    .about .container .illustration{
+        max-width: 50%;
+        order: 1;
+    }
+
+    .about .container .title-item-deux{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about .un{
+        width: 300px;
+        height: auto;
+    }
+
+    .about .deux{
+        width: 350px;
+        height: auto;
+        position: absolute;
+        top: 15em;
+        left: 13em;
+    }
+
+    .about .illustration .title{
+        position: absolute;
+        left: 24em;
+        display: flex;
+        top: 8em;
+        text-align: center;
+    }
+
+    .about .illustration .title h4{
+        font-size: 60px;
+    }
+
+    .about .illustration .title p{
+        font-size: 16px;
+        font-weight: 400;
+        padding-top: 1.5em;
+    }
+
+    .item-sus p img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .about .container .title-item-deux{
+        gap: 1em;
+    }
+
+    .about .container .title-item-deux .contain{
+        width: 80%;
+    }
+
+    .about .container .title-item-deux .contain-un p{
+        font-size: 16px;
+    }
+
+
+    .about .container .title-item-deux .item-sus p{
+        font-size: 16px;
+    }
+
+    .about .container .title-item-deux .contain .btn-text{
+        font-size: 15px;
+    }
+
+    
+    .service .container .title .contain h2{
+        font-size: 40px;
+    }
+
+        
+    .service .container .title .para p{
+        font-size: 16   px;
+        padding-top: 2em;
+    }
+
+    .service .container .service-item{
+        background-color: #fff;
+        max-width: 1137px;
+        margin: 2em auto;
+        border-radius: 20px;
+        color: #000;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* ✅ */
+        gap: 24px; /* espace entre les items */
+        text-align: center;
+        align-items: center;
+        box-shadow: 0 4px 10px rgba(34, 34, 34, 0.1);
+        padding: 1em 3em;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    
+    .story{
+        margin-top: 25em;
+    }
+
+    .story .container .title h4{
+        display: flex;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2.8px;
+        padding: 1em 0;
+    }
+
+    .story .container .title h4 img{
+        height: 20px;
+        width: 20px;
+        margin-right: 1em;
+
+    }
+
+    .story .container .title h2{
+        font-weight: 300;
+        font-size: 40px;
+        letter-spacing: -.5px;
+    }
+
+    .story .container .title h2 span{
+        font-weight: bold;
+        display: block;
+        margin-bottom: 2em;
+    }
+
+    .story .container .title .image img{
+        width: 500px;
+    }
+
+    .story .container .contain{
+        padding: 2em 0;
+    }
+
+    .story .container .contain img{
+        width: 300px;
+    }
+
+    .story .contain .para p{
+        font-size: 16px;
+        font-weight: 300;
+        display: block;
+        padding-bottom: 4em;
+        margin-top: 5em;
+        border-bottom: solid 1px  rgba(129, 132, 138, 0.402);
+        color: rgba(129, 132, 138, 1);
+    }
+
+    .story .contain .compte{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 2em;
+        margin-bottom: 3em;
+    }
+
+    .story .contain .compte span{
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .story .contain .face img{
+        width:50px;
+    }
+
+    
+    .inovation{
+        background: rgba(34, 34, 34, 1);
+        color: #fff;
+        margin-top: 45em;
+        display: flex;
+        grid-template-columns:repeat(2,1fr) ;
+    }
+
+    .inovation .container .titre .item-element{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+    .inovation .ill{
+        display: block;
+        width: 400px;
+        position: absolute;
+        translate: 0 10.5em;
+    }
+
+    .inovation .illus{
+        width: 50%;
+        height: AUTO;
+        object-fit: cover;
+        margin-top: 0;
+    }
+
+    .inovation .illust{
+        left: 32em;
+        top: -13em;
+        width: 90px;
+        height: 90px;
+        display: block;
+    }
+
+    .inovation .container .titre .item h2{ 
+        margin-bottom: 1em;
+        font-size: 30px;
+    }
+
+    .inovation .container .titre h2 span{
+        display: block;
+        font-size: 35px;
+    }
+
+    .inovation .container .titre h2{
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: -.5px;
+        margin-bottom: 2em;
+    }
+
+    .inovation .container .item h3{
+        font-size: 10px;
+        padding-bottom: 1em;
+    }
+    
+    .inovation .container .item P{
+        font-weight: 400;
+        font-size: 10px;
+    }   
+
+    .our .container .lien a{
+        display: inline-block;
+        font-size: 14px;
+        color: #000;
+        margin-top: 4em;
+        margin-bottom: 1rem;
+        margin-left: 2em;
+    }
+
+    .our .container .title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5em;
+    }
+
+    .our .container .title h2{
+        font-size: 40px;
+    }
+
+    .our .container .image article p{
+        font-size: 16px;
+        margin-top: 2em;
+    }
+
+    .optimal .container{
+        padding-top: 5em;
+    }
+
+    .optimal .container .title{
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        gap: 7em;
+    }
+
+    .optimal .container .title h2{
+        font-size: 40px;
+    }
+
+    .optimal .container .title .item P{
+        margin-top: 5em;
+    }
+
+    .optimal .container .contain{
+        display: flex;
+        gap: 2em;
+    }
+
+    .optimal .container .contain .image {
+        width: 50%;
+        height: 100%;
+    }
+
+    .optimal .container .contain .item-element{
+        padding: 2em;
+    }
+
+    .optimal .container .contain .item-element .item{
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        gap: 1em;
+        margin-bottom: 2em;
+        padding: 1em;
+    }
+
+    .optimal .container .contain .item-element h4{
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: .5em;
+    }
+
+    .optimal .container .contain .item p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .optimal .container .contain .item h2{
+        font-size: 3em;
+        font-weight: 600;
+        color: rgba(255, 153, 0, 1);
+    }
+
+
+    .pricing .container .title .item{
+        display: block;
+        text-align: start;
+        align-items: center;
+        padding-top: 5em;
+    }
+
+    .pricing .container .title {
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+    }
+
+    .pricing .container .title .item{
+        max-width: 50%;
+    }
+
+    .pricing .container .title p{
+        color: #000000aa;
+        padding-left: 5em;
+        padding-top: 5em;
+    }
+
+    .pricing .container .title .item h2{
+        font-size: 50px;
+        display: inline-block;
+    }
+
+    .pricing .container .title .item h2 span{
+        font-weight: bold;
+        display: block;
+    }
+
+    .pricing .container .contain .item-element{
+        align-items: center;
+        display: flex;
+        margin-top: 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .pricing .container .contain .item-element .item{
+        align-items: center;
+        margin-top: 2em;
+        width: 100%;
+    }
+
+    .pricing .container .contain .item-element .item .title P{
+        padding-top: 0;
+        padding-left: 0;
+        color: inherit;
+        font-weight: 500;
+    }
+
+    .pricing .container .contain .item .svg-1{
+        position: absolute;
+        translate: 12.5em -2em;
+    }
+
+    .pricing .container .contain .item .svg-2{
+        position: absolute;
+        translate: 14em -2em;
+    }
+
+    .pricing .container .contain .item .svg-3{
+        position: absolute;
+        translate: 12.5em -2em;
+    }
+
+    .pricing-botton{
+        display: flex;
+        justify-content: center;
+        padding-top: 2em;
+    }
+
+    .pricing-botton .items{
+        display: flex;
+        justify-content: space-between;
+        gap: 1em;
+    }
+
+    
+    .clients .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .clients .container .title{
+        margin-top: 4em;
+    }
+
+    .clients .container .title h2{
+        font-size: 30px;
+        padding-bottom: 2em;
+    }
+
+    .clients .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blogs .container{
+        padding-top: 5em;
+        gap: 1em;
+    }
+
+    .blogs .container .title{
+        gap: 7em;
+    }
+
+    .blogs .container .title h2{
+        font-size: 40px;
+    }
+
+    .blogs .container .title P{
+        margin-top: 4em;
+    }
+
+    .blogs .container .item-bloc .item p{
+        font-size: 14px;
+        padding-right: 5em;
+    }
+
+    .blogs .container .item-bloc .item a{
+        padding: .4em 1em;
+    }
+
+    footer .container .titre .bloc img{
+        margin-left: 25em;
+    }
+
+    footer .container .titre {
+        padding-bottom: 2em;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.094) ;
+    }
+
+    footer .container .titre .bloc p{
+        font-size: 10px;
+    }
+
+    .item-lien-bloc{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    
+    footer .foot{
+        position: absolute;
+        width: 500px;
+        top: 22.1em;
+    }
+
+}
+
+
